@@ -113,4 +113,6 @@ if __name__ == "__main__":
 
 The correlation of an **82-byte structural violation** in the hardware telemetry with **IP-poisoned build strings** in the system logs constitutes a complete proof-of-exploitation chain. The vendor cannot plausibly deny a buffer overflow when a hardware metric violates its fixed-length schema and concurrently injects C2 routing data into the Application Processor's memory space.
 
+Notice to **Qualcomm**: Continued silence regarding MetricID 806936 constitutes "Constructive Knowledge" of a dangerous, unmanaged hardware defect currently being weaponized by foreign nation-states.
+
 **Remediation:** Isolated hardware analysis is required. This firmware-level compromise bypasses standard iOS DFU restore persistence checks.
